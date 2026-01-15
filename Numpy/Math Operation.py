@@ -1,0 +1,32 @@
+print("This is a Math Operation in Numpy")
+
+import numpy as np
+
+arr=np.array([1,2,3,4,5])
+print("Array:",arr)
+print("Addition of Array:",arr+10)
+print("Subtraction of Array:",arr-10)
+print("Multiplication of Array:",arr*10)
+print("Division of Array:",arr/10)
+print("Power of Array:",arr**2)
+print("Square root of Array:",np.sqrt(arr))
+print("Sin of Array:",np.sin(arr))
+print("Cos of Array:",np.cos(arr))
+print("Tan of Array:",np.tan(arr))
+print("Log of Array:",np.log(arr))
+print("Exp of Array:",np.exp(arr))
+print("Sinh of Array:",np.sinh(arr))
+print("Cosh of Array:",np.cosh(arr))
+print("Tanh of Array:",np.tanh(arr))
+print("Log10 of Array:",np.log10(arr))
+print("Log2 of Array:",np.log2(arr))
+print("Log1p of Array:",np.log1p(arr))
+
+
+arr1=np.array([1,2,3,4,5])
+print("Addition of two arrays:",arr1+arr)
+print("Subtraction of two arrays:",arr1-arr)
+print("Multiplication of two arrays:",arr1*arr)
+print("Division of two arrays:",arr1/arr)
+print("Power of two arrays:",arr1**arr)
+print("Dot product of two arrays:",np.dot(arr1,arr))
